@@ -1,0 +1,473 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+body {
+	padding: none;
+	margin: none;
+	background-color: white;
+	color: #07416d;
+}
+
+#buttons{
+	margin: 3%;
+	
+}
+
+.myButton1 {
+	margin-right: 4%;
+	float: left;
+	background-color:white;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #07416d;
+	display:inline-block;
+	cursor:pointer;
+	color:#07416d;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	padding:14px 25px;
+	text-decoration:none;
+	text-align: left;
+}
+.myButton1:hover {
+	background-color:#07416d;
+	color:#ffffff;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	margin-left: 4%;
+	float: right;
+	background-color:white;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #910a00;
+	display:inline-block;
+	cursor:pointer;
+	color:#910a00;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	padding:14px 25px;
+	text-decoration:none;
+	text-align: left;
+}
+.myButton2:hover {
+	background-color:#910a00;
+	color:#ffffff;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+/*p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #07416d;
+	text-align: justify;
+	margin-top: -80px;
+	margin-bottom: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 2em;
+}*/
+
+ul {
+	margin-left: -45px;
+	margin-right: -19px;
+	margin-top: -4px;
+
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: none;
+	margin-left: -4px;
+	margin-top: -4px;
+
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+#synagogue {
+	background-image: url('Images/1.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+}
+
+/*#one:hover {
+	background-image: url('assets/Kim.png');
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+}*/
+
+#instagram {
+	background-image: url('Images/2a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#instagram:hover {
+	background-image: url('Images/2b.png');
+	position: relative;
+}
+
+#coffee {
+	background-image: url('Images/3a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#coffee:hover {
+	background-image: url('Images/3b.png');
+	position: relative;
+}
+
+#youtube {
+	background-image: url('Images/4a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#youtube:hover {
+	background-image: url('Images/4b.png');
+	position: relative;
+}
+
+#spotify {
+	background-image: url('Images/5a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#spotify:hover {
+	background-image: url('Images/5b.png');
+	position: relative;
+}
+
+#ebook {
+	background-image: url('Images/6a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#ebook:hover {
+	background-image: url('Images/6b.png');
+	position: relative;
+}
+
+#lamp {
+	background-image: url('Images/7.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+/*#seven:hover {
+	background-image: url('assets/Genghis.png');
+	position: relative;
+}*/
+
+#fitbit {
+	background-image: url('Images/8a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#fitbit:hover {
+	background-image: url('Images/8b.png');
+	position: relative;
+}
+
+#venus {
+	background-image: url('Images/9.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+/*#nine:hover {
+	background-image: url('assets/Theresa.png');
+	position: relative;
+}*/
+
+#gmail {
+	background-image: url('Images/10a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#gmail:hover {
+	background-image: url('Images/10b.png');
+	position: relative;
+}
+
+#snapchat {
+	background-image: url('Images/11a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#snapchat:hover {
+	background-image: url('Images/11b.png');
+	position: relative;
+}
+
+#dreamcatcher {
+	background-image: url('Images/12.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+/*#twelve:hover {
+	background-image: url('assets/Pol.png');
+	position: relative;
+}
+*/
+#clock {
+	background-image: url('Images/13a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#clock:hover {
+	background-image: url('Images/13b.png');
+	position: relative;
+}
+
+#facebook {
+	background-image: url('Images/14a.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+#facebook:hover {
+	background-image: url('Images/14b.png');
+	position: relative;
+}
+
+#rosary {
+	background-image: url('Images/15.png'); 
+	width: 20vw;
+	height: 20vw;
+	position: relative;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+
+}
+
+/*#fifteen:hover {
+	background-image: url('assets/Caligula.png');
+	position: relative;
+}
+*/
+
+#content {
+	margin-left: 3%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+	
+}
+
+
+
+#textofbody{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #07416d;
+	text-align: justify;
+	/*margin-top: -80px;
+	margin-bottom: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;*/
+	line-height: 2em;
+
+
+}
+
+/*#materiality{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #07416d;
+	text-align: justify;
+	margin-top: 50px;
+	
+	line-height: 2em;
+
+
+}*/
+
+.left {
+    float: left;
+    width: 40%;
+}
+.right {
+    float: right;
+    width: 59%;
+}
+/*.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+*/
+
+#icon {
+    max-width: 50%;
+    height: auto;
+    padding-left: 13%;
+}
+
+#img{
+	margin-top: 4%;
+	float: left;
+	max-width: 90%;
+
+}
+
+@media screen and (max-width: 480px) {
+    .left, 
+    .right {
+        float: none;
+        width: auto;
+    }
+}
+

@@ -1,0 +1,153 @@
+/**,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  background: white;
+  color: #910a00;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+  margin-left: 5%;
+  margin-bottom:5%;
+}  
+
+#buttons{
+  margin: 5%;
+  
+}
+
+.myButton1 {
+  margin-right: 4%;
+  margin-left: 4%;
+  float: left;
+  background-color:white;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #07416d;
+  display:inline-block;
+  cursor:pointer;
+  color:#07416d;
+  font-family: 'Raleway', sans-serif;
+  font-size:16px;
+  padding:14px 25px;
+  text-decoration:none;
+  text-align: left;
+}
+.myButton1:hover {
+  background-color:#07416d;
+  color:#ffffff;
+}
+.myButton1:active {
+  position:relative;
+  top:1px;
+}
+
+.myButton2 {
+  margin-left: 4%;
+  margin-right: 4%;
+  float: right;
+  background-color:white;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #910a00;
+  display:inline-block;
+  cursor:pointer;
+  color:#910a00;
+  font-family: 'Raleway', sans-serif;
+  font-size:16px;
+  padding:14px 25px;
+  text-decoration:none;
+  text-align: left;
+}
+.myButton2:hover {
+  background-color:#910a00;
+  color:#ffffff;
+}
+.myButton2:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+
+
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 2px;
+  text-align: left;
+  margin-left: 4%
+
+  padding-top: 50px;
+  background: #07416d;
+
+}
+
+
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 70vw;
+  padding: 50px;
+  margin-left: 40px;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: inherit;
+
+}
+
+#first{
+  width: 80%;
+  margin-bottom: 2%;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 2em;
+  text-align: justify;
+}
+
+
+/*.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}*/
